@@ -84,7 +84,9 @@ class rrt_star(object):
             arr = arr + [list(k)]
         nodes = np.array(arr)
         # print(self.sample*np.ones((len(nodes),1))-nodes)
+        print(self.sample*np.ones((len(nodes),1))-nodes)
         dist = np.linalg.norm(self.sample*np.ones((len(nodes),1))-nodes, axis = 1)
+        # dist = np.linalg.norm(self.sample*np.ones((1,len(nodes)))-nodes, axis = 1)
         min_idx = np.argmin(dist)
         self.nrstpt = nodes[min_idx]
 
