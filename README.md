@@ -10,8 +10,8 @@ The following is an implementation of RRT and RRT* for a 2-D environment.
 4. N: Max number of iterations you wish to run
 
 The code allows you to choose a starting point, and rectangular obstacles. 
-![](images/rrtstar10.png)
-![](images/rrtstar11.png)
-![](images/rrtstar12.png)
-![](images/rrtstar13.png)
-![](images/rrtstar8.png)
+![After 100 iterations](images/rrtstar10.png)
+![After 200 iterations](images/rrtstar11.png)
+![After 500 iterations](images/rrtstar12.png)
+![After 1000 iterations](images/rrtstar13.png)
+![After 1000 iterations](images/rrtstar8.png)
